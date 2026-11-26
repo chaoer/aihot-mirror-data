@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T07:00:52.228Z",
+  "updatedAt": "2026-11-26T08:00:59.268Z",
   "full": {
     "tag": "snapshot-20261126-0700-daily",
     "releaseTag": "snapshot-20261126",
@@ -134,57 +134,57 @@
     }
   },
   "hourly": {
-    "tag": "snapshot-20261126-1500-hourly",
+    "tag": "snapshot-20261126-1600-hourly",
     "releaseTag": "snapshot-20261126",
-    "bundleUrl": "https://github.com/chaoer/aihot-mirror-data/releases/download/snapshot-20261126/hourly-1500.tar.gz",
-    "bundleSha256": "7fed4959c67a6bc351865223e3c94c9156f95caf2e11a8e1a6c2dea769747628",
+    "bundleUrl": "https://github.com/chaoer/aihot-mirror-data/releases/download/snapshot-20261126/hourly-1600.tar.gz",
+    "bundleSha256": "7d8cf8aa386189265879414f17e6b9ca6a8dd318531639afaa9fcc5483609036",
     "manifest": {
       "packageVersion": 2,
       "mode": "hourly",
-      "snapshotAt": "2026-11-26T07:00:34.114Z",
+      "snapshotAt": "2026-11-26T08:00:44.636Z",
       "appVersion": "0d2f9cc",
       "schemaHead": "0171_notify_targets_kind_drop_dingtalk_check.sql",
       "windowDays": 180,
       "windowHours": 24,
-      "windowStart": "2026-11-25T07:00:34.114Z",
-      "windowEnd": "2026-11-26T07:00:34.114Z",
+      "windowStart": "2026-11-25T08:00:44.636Z",
+      "windowEnd": "2026-11-26T08:00:44.636Z",
       "dailyReady": true,
       "counts": {
         "sources": 66,
-        "articles": 4468,
-        "analyses": 5613,
+        "articles": 4676,
+        "analyses": 5820,
         "grouping_overrides": 0,
-        "stories": 3064,
+        "stories": 3308,
         "story_aliases": 56,
         "story_links": 20,
-        "story_digests": 4181,
-        "facts": 3257,
-        "fact_articles": 3963,
-        "story_signals": 3741,
-        "story_heat_hourly": 34170,
+        "story_digests": 4421,
+        "facts": 3501,
+        "fact_articles": 4206,
+        "story_signals": 3984,
+        "story_heat_hourly": 34859,
         "hot_rankings": 7,
-        "publications": 3930,
+        "publications": 4138,
         "translations": 0,
         "quote_translations": 0,
         "reports": 61,
-        "pool_search": 4068,
+        "pool_search": 4306,
         "tombstones": 0
       },
       "files": [
         {
           "path": "tables/sources.jsonl.zst",
-          "sha256": "c92f13b3fe8867c39331c2d50ee9d4f7e1a9612ed9c7f3d9b3f6823abfeb6875",
-          "bytes": 4326
+          "sha256": "c61fd4f5a496199298934126e82bbe6c778b5de0940bb592b018c0acf2129126",
+          "bytes": 4316
         },
         {
           "path": "tables/articles.jsonl.zst",
-          "sha256": "5b21d144612140f04d05199886c1da5a3f87614de796df6c378a52ffaa2fbd26",
-          "bytes": 3087040
+          "sha256": "ac922600f9d753a543b70a2f9dc04b0073fbdf24498637d29b93f18af3837f7d",
+          "bytes": 3237775
         },
         {
           "path": "tables/analyses.jsonl.zst",
-          "sha256": "768fe1c6882b43d7e35bdee45bb10fddbdeb6c1239c09755b77dcf4693e7c31e",
-          "bytes": 808462
+          "sha256": "93f796ebac0fb760fe2a4acccc31218a2900c9e2b209b7117f46488e9697a766",
+          "bytes": 845687
         },
         {
           "path": "tables/grouping_overrides.jsonl.zst",
@@ -193,8 +193,8 @@
         },
         {
           "path": "tables/stories.jsonl.zst",
-          "sha256": "ca1d3b2b2262f5e780c5b21eb2cd1dad273a70686cd43a6a0e5554232257c875",
-          "bytes": 914102
+          "sha256": "d1e31000b9ad33bcd5edecac369b95ed62054dfc00b489887def9e444818d935",
+          "bytes": 979080
         },
         {
           "path": "tables/story_aliases.jsonl.zst",
@@ -208,38 +208,38 @@
         },
         {
           "path": "tables/story_digests.jsonl.zst",
-          "sha256": "1c531d40eff169c1225c2e07842fe95785eddf37b2430ca95303f27cefb422ba",
-          "bytes": 1179842
+          "sha256": "4e3454b2081b896640b910f43e808edc91ccd1dee75456b24811b9e53f9b627a",
+          "bytes": 1247721
         },
         {
           "path": "tables/facts.jsonl.zst",
-          "sha256": "1d91ddcfe62ddc3369446a36cf72050a4d04edbb3518ef4b44618d9517292f2f",
-          "bytes": 395451
+          "sha256": "28357ec5f956e307fb21a1da0226c9ef538410a41ca17df92229095de1437e29",
+          "bytes": 419458
         },
         {
           "path": "tables/fact_articles.jsonl.zst",
-          "sha256": "f2284fdd18bd7461530790c6683359a49f6ee86a7a3f545ff6cee5f3c8f5aed0",
-          "bytes": 398600
+          "sha256": "b82f28ec9f993df599f3cfa1f6daa331d074f3e1347a54d4a475c89d6c09d974",
+          "bytes": 418484
         },
         {
           "path": "tables/story_signals.jsonl.zst",
-          "sha256": "516d91e4d5ff079c611d409e800c04717c5ad0bad08a2cf19faed0032541edff",
-          "bytes": 98106
+          "sha256": "b9c401313a0e94fde92cbbad7fac9fa3c19360bb9882a0d41746e280d06a380d",
+          "bytes": 103428
         },
         {
           "path": "tables/story_heat_hourly.jsonl.zst",
-          "sha256": "e94dbd6a4371a5f5fa4a9494cc01a7fffc2dca74997058315eea8226b40fc2da",
-          "bytes": 73133
+          "sha256": "15f8749c0b029e0888626b888328135ee060762124ab4b259817f5c0738f12ed",
+          "bytes": 73108
         },
         {
           "path": "tables/hot_rankings.jsonl.zst",
-          "sha256": "ebbcebee8e3fda20423602d14dc2a4fa0ac4caf57fda448a06ac789aff0ff597",
-          "bytes": 3467
+          "sha256": "d33f81db0a901136186989f5aa7d6780fde206bcdca5e85d788d7133575253a8",
+          "bytes": 3317
         },
         {
           "path": "tables/publications.jsonl.zst",
-          "sha256": "46d657195a7ad645dcc7e2504ddcd8f8389788ba9d317586af0bf23462355d3f",
-          "bytes": 1604176
+          "sha256": "8caa5b6b6d75f39aecef7b1e2e0a1c1eb1cbe3f1fab4e4db711858d30f7dd888",
+          "bytes": 1695531
         },
         {
           "path": "tables/translations.jsonl.zst",
@@ -258,8 +258,8 @@
         },
         {
           "path": "tables/pool_search.jsonl.zst",
-          "sha256": "3e517ddf8dca42bfe309794eabfde869cbd14947bec906ad43a127c5dd41097e",
-          "bytes": 908447
+          "sha256": "5c2861aabe5c9511929447438c6c068bb8705bcf7e2be1586c43e9180f5bfb33",
+          "bytes": 964825
         },
         {
           "path": "tombstones.jsonl.zst",
